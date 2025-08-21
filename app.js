@@ -21,8 +21,8 @@ app.use(urlencoded({ extended: true }));
 app.use(
   cors({
     origin: [
-      "https://beautiful-ganache-65e87c.netlify.app/",
-      "https://e-commerce-front-end-website.netlify.app/",
+      "https://beautiful-ganache-65e87c.netlify.app",
+      "https://e-commerce-front-end-website.netlify.app",
     ],
     credentials: true,
   })
