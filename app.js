@@ -5,7 +5,7 @@ import userRouter from "./routes/userRouter.js";
 import cookieParser from "cookie-parser";
 
 import { homeController } from "./controllers/user_controller.js";
-import productRouter from "./routes/product_router.js";
+import productRouter from "./routes/productRouter.js";
 import category_router from "./routes/category_router.js";
 import cart_router from "./routes/cart_router.js";
 import my_list_router from "./routes/my_list_router.js";

@@ -19,7 +19,7 @@ import {
   add_review,
   get_review,
   get_all_product_count,
-} from "../controllers/Product_controller.js";
+} from "../controllers/product_controller.js";
 import adminAuth from "../middleware/adminAuth.js";
 
 productRouter.post(
